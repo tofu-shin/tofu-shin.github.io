@@ -7,6 +7,9 @@ tags: [openclaw, installation, setup, tutorial]
 
 # OpenClaw 설치 완벽 가이드
 
+![OpenClaw GitHub](/assets/img/posts/openclaw-github.jpg)
+_OpenClaw GitHub 저장소 (188k ⭐)_
+
 이 글에서는 OpenClaw를 처음 설치하는 과정을 단계별로 설명합니다. 복사-붙여넣기만 해도 따라할 수 있도록 모든 명령어와 설정을 포함했습니다.
 
 ## 시작하기 전에
