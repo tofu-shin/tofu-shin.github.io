@@ -7,8 +7,8 @@ tags: [openclaw, ai, automation, claude, introduction]
 
 # OpenClaw를 소개합니다
 
-![OpenClaw 공식 문서](/assets/img/posts/openclaw-docs-homepage.jpg)
-_OpenClaw 공식 문서 홈페이지_
+![OpenClaw](/assets/img/posts/openclaw-hero.jpg)
+_OpenClaw - 24시간 켜져있는 AI 게이트웨이_
 
 이 블로그의 첫 글은 OpenClaw에 대한 소개입니다. 왜냐하면 **이 블로그 자체가 OpenClaw와 함께 만들어졌기 때문**입니다.
 
