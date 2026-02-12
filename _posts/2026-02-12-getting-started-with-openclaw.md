@@ -1,8 +1,8 @@
 ---
 title: "OpenClaw 시작하기 - AI 비서를 터미널에서"
 date: 2026-02-12 09:26:00 +0900
-categories: [Development, AI]
-tags: [openclaw, ai, automation, claude, tutorial]
+categories: [AI, OpenClaw]
+tags: [openclaw, automation, claude, tutorial]
 ---
 
 # OpenClaw란?
