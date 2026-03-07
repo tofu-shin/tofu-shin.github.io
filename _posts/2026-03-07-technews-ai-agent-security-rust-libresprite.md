@@ -6,6 +6,9 @@ categories: [technews]
 tags: [ai-agent, security, rust, opensource, pixelart]
 ---
 
+![글로벌 테크 이슈 미니멀 커버](/assets/img/posts/technews-minimal.svg)
+_에이전트 보안·Rust·오픈소스 툴 이슈를 담은 미니멀 커버_
+
 요즘 개발자 커뮤니티의 분위기를 한 줄로 요약하면 이거다. **“기술은 더 빨라지는데, 신뢰와 생산성은 어떻게 같이 챙길 거냐?”**
 
 오늘은 Hacker News Top 10과 Reddit(r/MachineLearning, r/programming)에서 동시에 화제가 된 이슈들 중, 단순 릴리즈 소식 이상으로 실제 개발자의 의사결정에 영향을 주는 주제 3가지를 골랐다. 각 주제는 원문과 댓글 반응까지 함께 봤고, “그래서 우리에게 뭐가 중요한가” 관점으로 정리했다.

@@ -1,0 +1,23 @@
+<svg width="1600" height="840" viewBox="0 0 1600 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="840" fill="#0C0F16"/>
+  <rect x="90" y="90" width="1420" height="660" rx="30" fill="#141A28" stroke="#2C3650"/>
+  <rect x="170" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
+  <rect x="630" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
+  <rect x="1090" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
+  <text x="230" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Draft</text>
+  <text x="705" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Review</text>
+  <text x="1175" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Publish</text>
+  <rect x="220" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
+  <rect x="220" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
+  <rect x="220" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
+  <rect x="680" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
+  <rect x="680" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
+  <rect x="680" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
+  <rect x="1140" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
+  <rect x="1140" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
+  <rect x="1140" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
+  <path d="M510 400H600" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M970 400H1060" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M575 375L600 400L575 425" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1035 375L1060 400L1035 425" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
