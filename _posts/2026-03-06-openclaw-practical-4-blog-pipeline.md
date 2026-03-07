@@ -9,7 +9,7 @@ tags: [openclaw, automation, blog, jekyll, cron, workflow]
 # OpenClaw 실전편 #4
 
 ![블로그 파이프라인 미니멀 커버](/assets/img/posts/blog-pipeline-minimal.svg)
-_초안→검수→배포 흐름을 담은 미니멀 커버_
+_초안 작성부터 검수·배포까지 이어지는 발행 파이프라인 개요_
 
 3편에서 Heartbeat + Cron의 역할 분리를 다뤘다면, 이번에는 그걸 **실제 블로그 발행 루틴**에 꽂아보자.  
 목표는 하나다.

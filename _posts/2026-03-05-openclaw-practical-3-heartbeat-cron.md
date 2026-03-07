@@ -9,7 +9,7 @@ tags: [openclaw, heartbeat, cron, automation, workflow]
 # OpenClaw 실전편 #3
 
 ![Heartbeat + Cron 미니멀 커버](/assets/img/posts/heartbeat-cron-minimal.svg)
-_Heartbeat와 Cron 운영 패턴을 담은 미니멀 커버_
+_정기 점검과 정시 실행의 역할 분리를 한눈에 정리한 다이어그램_
 
 앞선 1편/2편에서 OpenClaw가 무엇인지, 어떻게 설치하는지 봤다면 이제 진짜 실전이다.  
 이번 글 목표는 단순하다.

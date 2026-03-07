@@ -7,7 +7,7 @@ tags: [ai-agent, security, rust, opensource, pixelart]
 ---
 
 ![글로벌 테크 이슈 미니멀 커버](/assets/img/posts/technews-minimal.svg)
-_에이전트 보안·Rust·오픈소스 툴 이슈를 담은 미니멀 커버_
+_오늘의 핵심 이슈 3가지(에이전트 보안, Rust, 오픈소스 도구)를 요약한 커버_
 
 요즘 개발자 커뮤니티의 분위기를 한 줄로 요약하면 이거다. **“기술은 더 빨라지는데, 신뢰와 생산성은 어떻게 같이 챙길 거냐?”**
 
