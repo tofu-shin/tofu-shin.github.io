@@ -13,6 +13,11 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: kakaopay
+  icon: "fas fa-mug-hot"
+  url: "https://link.kakaopay.com/__/5LfR3YZ"
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
