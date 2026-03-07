@@ -1,23 +1,36 @@
 <svg width="1600" height="840" viewBox="0 0 1600 840" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="840" fill="#0C0F16"/>
-  <rect x="90" y="90" width="1420" height="660" rx="30" fill="#141A28" stroke="#2C3650"/>
-  <rect x="170" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
-  <rect x="630" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
-  <rect x="1090" y="220" width="340" height="360" rx="22" fill="#1A2236"/>
-  <text x="230" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Draft</text>
-  <text x="705" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Review</text>
-  <text x="1175" y="300" fill="#8DB2FF" font-family="Inter, Pretendard, Arial, sans-serif" font-size="40" font-weight="700">Publish</text>
-  <rect x="220" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
-  <rect x="220" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
-  <rect x="220" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
-  <rect x="680" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
-  <rect x="680" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
-  <rect x="680" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
-  <rect x="1140" y="350" width="240" height="24" rx="10" fill="#2A3551"/>
-  <rect x="1140" y="396" width="180" height="24" rx="10" fill="#2A3551"/>
-  <rect x="1140" y="442" width="220" height="24" rx="10" fill="#2A3551"/>
-  <path d="M510 400H600" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round"/>
-  <path d="M970 400H1060" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round"/>
-  <path d="M575 375L600 400L575 425" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M1035 375L1060 400L1035 425" stroke="#7CA2FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect width="1600" height="840" fill="#0D1322"/>
+  <rect x="70" y="70" width="1460" height="700" rx="28" fill="#141E35" stroke="#30497A"/>
+
+  <text x="130" y="170" fill="#D0DEFF" font-family="Inter, Pretendard, sans-serif" font-size="46" font-weight="700">Blog Publishing Pipeline</text>
+  <text x="130" y="220" fill="#90AEEB" font-family="Inter, Pretendard, sans-serif" font-size="24">Draft → Review → Publish를 분리한 운영 템플릿</text>
+
+  <rect x="130" y="280" width="400" height="390" rx="22" fill="#1A294B" stroke="#4369B6"/>
+  <text x="180" y="350" fill="#AFC9FF" font-family="Inter, Pretendard, sans-serif" font-size="38" font-weight="700">Draft</text>
+  <rect x="180" y="390" width="300" height="26" rx="8" fill="#2B4377"/>
+  <rect x="180" y="435" width="250" height="26" rx="8" fill="#2B4377"/>
+  <rect x="180" y="480" width="280" height="26" rx="8" fill="#2B4377"/>
+  <rect x="180" y="530" width="170" height="70" rx="12" fill="#223862"/>
+  <text x="210" y="575" fill="#D2E3FF" font-family="Inter, Pretendard, sans-serif" font-size="24">Outline</text>
+
+  <rect x="600" y="280" width="400" height="390" rx="22" fill="#1A294B" stroke="#4369B6"/>
+  <text x="650" y="350" fill="#AFC9FF" font-family="Inter, Pretendard, sans-serif" font-size="38" font-weight="700">Review</text>
+  <rect x="650" y="390" width="300" height="26" rx="8" fill="#2B4377"/>
+  <rect x="650" y="435" width="250" height="26" rx="8" fill="#2B4377"/>
+  <rect x="650" y="480" width="280" height="26" rx="8" fill="#2B4377"/>
+  <circle cx="700" cy="560" r="30" fill="#223862"/>
+  <path d="M685 560L697 572L717 548" stroke="#9EC1FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1070" y="280" width="400" height="390" rx="22" fill="#1A294B" stroke="#4369B6"/>
+  <text x="1120" y="350" fill="#AFC9FF" font-family="Inter, Pretendard, sans-serif" font-size="38" font-weight="700">Publish</text>
+  <rect x="1120" y="390" width="300" height="26" rx="8" fill="#2B4377"/>
+  <rect x="1120" y="435" width="250" height="26" rx="8" fill="#2B4377"/>
+  <rect x="1120" y="480" width="280" height="26" rx="8" fill="#2B4377"/>
+  <rect x="1120" y="530" width="220" height="70" rx="12" fill="#223862"/>
+  <text x="1160" y="575" fill="#D2E3FF" font-family="JetBrains Mono, Menlo, monospace" font-size="24">git push</text>
+
+  <path d="M540 470H590" stroke="#88AEFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M980 470H1060" stroke="#88AEFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M570 448L592 470L570 492" stroke="#88AEFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1035 448L1058 470L1035 492" stroke="#88AEFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
