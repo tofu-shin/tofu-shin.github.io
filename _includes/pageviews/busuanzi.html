@@ -1,0 +1,33 @@
+<!-- Display Busuanzi pageviews (free, no-account) -->
+<script defer src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+    const busuanziPv = document.getElementById('busuanzi_value_page_pv');
+
+    if (pv && busuanziPv) {
+      // If script loads slowly, keep spinner until value appears.
+      const observer = new MutationObserver(() => {
+        const value = busuanziPv.innerText.trim();
+        if (value) {
+          pv.innerText = new Intl.NumberFormat().format(Number(value));
+          observer.disconnect();
+        }
+      });
+
+      observer.observe(busuanziPv, { childList: true, characterData: true, subtree: true });
+
+      // fallback when blocked/unavailable
+      setTimeout(() => {
+        if (!pv.innerText || pv.innerText.includes('spinner')) {
+          pv.innerText = '-';
+        }
+        observer.disconnect();
+      }, 4000);
+    }
+  });
+</script>
+<!-- hidden source value from busuanzi -->
+<span id="busuanzi_container_page_pv" style="display:none;">
+  <span id="busuanzi_value_page_pv"></span>
+</span>

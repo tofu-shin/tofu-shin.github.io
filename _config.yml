@@ -61,6 +61,9 @@ analytics:
     id: # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
+  # Free pageview counter (no signup): https://busuanzi.ibruce.info
+  busuanzi:
+    id: enabled
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -74,7 +77,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: busuanzi
 
 # Prefer color scheme setting.
 #
