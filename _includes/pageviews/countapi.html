@@ -1,0 +1,26 @@
+<!-- Display CountAPI pageviews (free, no account) -->
+<script>
+  (() => {
+    const pv = document.getElementById('pageviews');
+    if (!pv) return;
+
+    const ns = 'tofu-shin-github-io';
+    const rawPath = (location.pathname || '/').replace(/\/$/, '') || '/';
+    const key = rawPath
+      .replace(/^\//, '')
+      .replace(/[^a-zA-Z0-9_-]/g, '_')
+      .slice(0, 120) || 'home';
+
+    const endpoint = `https://api.countapi.xyz/hit/${ns}/${key}`;
+
+    fetch(endpoint, { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((data) => {
+        const count = Number(data && data.value);
+        pv.textContent = Number.isFinite(count) ? new Intl.NumberFormat().format(count) : '-';
+      })
+      .catch(() => {
+        pv.textContent = '-';
+      });
+  })();
+</script>

@@ -86,6 +86,13 @@ script_includes:
               <em id="busuanzi_value_page_pv">-</em>
               {{ site.data.locales[lang].post.pageview_measure }}
             </span>
+          {% elsif site.pageviews.provider == 'countapi' %}
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
           {% elsif site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
             <span>
               <em id="pageviews">

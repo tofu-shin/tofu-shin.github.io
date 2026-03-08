@@ -74,7 +74,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: busuanzi
+  provider: countapi
 
 # Prefer color scheme setting.
 #
