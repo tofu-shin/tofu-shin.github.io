@@ -1,32 +1,59 @@
 <!-- Display Busuanzi pageviews (free, no-account) -->
 <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const pv = document.getElementById('pageviews');
-    const busuanziPv = document.getElementById('busuanzi_value_page_pv');
+  (() => {
+    const bindPageviews = () => {
+      const pv = document.getElementById('pageviews');
+      const source = document.getElementById('busuanzi_value_page_pv');
+      if (!pv || !source) return;
 
-    if (pv && busuanziPv) {
-      // If script loads slowly, keep spinner until value appears.
+      const extract = () => {
+        const raw = (source.textContent || '').trim();
+        const digits = raw.replace(/\D/g, '');
+        return digits ? Number(digits) : null;
+      };
+
+      const render = () => {
+        const value = extract();
+        if (value !== null && Number.isFinite(value)) {
+          pv.textContent = new Intl.NumberFormat().format(value);
+          return true;
+        }
+        return false;
+      };
+
+      // 1) Immediate try
+      if (render()) return;
+
+      // 2) Observe async updates from busuanzi script
       const observer = new MutationObserver(() => {
-        const value = busuanziPv.innerText.trim();
-        if (value) {
-          pv.innerText = new Intl.NumberFormat().format(Number(value));
-          observer.disconnect();
-        }
+        if (render()) observer.disconnect();
       });
+      observer.observe(source, { childList: true, characterData: true, subtree: true });
 
-      observer.observe(busuanziPv, { childList: true, characterData: true, subtree: true });
-
-      // fallback when blocked/unavailable
-      setTimeout(() => {
-        if (!pv.innerText || pv.innerText.includes('spinner')) {
-          pv.innerText = '-';
+      // 3) Poll briefly as backup (some browsers/extensions miss mutation events)
+      let tries = 0;
+      const timer = setInterval(() => {
+        tries += 1;
+        if (render() || tries >= 20) {
+          clearInterval(timer);
+          observer.disconnect();
+          // 4) Graceful fallback
+          if (!/\d/.test((pv.textContent || '').trim())) {
+            pv.textContent = '-';
+          }
         }
-        observer.disconnect();
-      }, 4000);
+      }, 500);
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bindPageviews, { once: true });
+    } else {
+      bindPageviews();
     }
-  });
+  })();
 </script>
+
 <!-- hidden source value from busuanzi -->
 <span id="busuanzi_container_page_pv" style="display:none;">
   <span id="busuanzi_value_page_pv"></span>
