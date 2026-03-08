@@ -100,7 +100,7 @@ git status --short
 git add _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
 
 # 커밋
-git commit -m "Add OpenClaw practical #6 publish ops and rollback guide"
+git commit -m "Add OpenClaw practical #5 publish ops and rollback guide"
 
 # 푸시
 git push origin main
@@ -125,7 +125,7 @@ git push origin main
 ```bash
 git status
 git add _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
-git commit -m "Add OpenClaw practical #6 publish ops and rollback guide"
+git commit -m "Add OpenClaw practical #5 publish ops and rollback guide"
 ```
 
 ### 케이스 B: non-fast-forward (원격 충돌)
