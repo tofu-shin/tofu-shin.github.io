@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "6. OpenClaw 실전편 - 발행 실패를 막는 운영 템플릿(검증·커밋·롤백)"
+title: "5. OpenClaw 실전편 - 발행 실패를 막는 운영 템플릿(검증·커밋·롤백)"
 date: 2026-03-08 09:00:00 +0900
 categories: [AI, OpenClaw]
 tags: [openclaw, automation, blog, jekyll, git, rollback, checklist]
 ---
 
-# OpenClaw 실전편 #6
+# OpenClaw 실전편 #5
 
 ![OpenClaw](/assets/img/posts/openclaw-hero.jpg)
 _실패를 전제로 설계한 블로그 발행 운영 템플릿_
 
 3편에서 Heartbeat + Cron의 역할 분리를 잡았고, 4편에서 초안→검수→배포 파이프라인을 만들었다.  
-이번 6편은 그 다음 단계다.
+이번 5편은 그 다음 단계다.
 
 > **"오늘도 09:00 발행이 돌아가게 만드는 운영 습관"**
 
@@ -56,16 +56,16 @@ _실패를 전제로 설계한 블로그 발행 운영 템플릿_
 cd ~/tofu-shin.github.io
 
 # 1) 오늘 포스트 파일 확인
-ls -lh _posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md
+ls -lh _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
 
 # 2) front matter / 대표 이미지 경로 확인
-grep -n "^title:\|^date:\|^categories:\|^tags:" _posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md
-grep -n "/assets/img/posts/openclaw-hero.jpg" _posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md
+grep -n "^title:\|^date:\|^categories:\|^tags:" _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
+grep -n "/assets/img/posts/openclaw-hero.jpg" _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
 
 # 3) 최소 분량(예: 1800자) 확인
 python3 - <<'PY'
 from pathlib import Path
-p = Path('_posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md')
+p = Path('_posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md')
 text = p.read_text(encoding='utf-8')
 # front matter 제외한 본문 길이 대략 계산
 parts = text.split('---')
@@ -97,7 +97,7 @@ cd ~/tofu-shin.github.io
 git status --short
 
 # 이번 글 파일만 스테이징
-git add _posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md
+git add _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
 
 # 커밋
 git commit -m "Add OpenClaw practical #6 publish ops and rollback guide"
@@ -124,7 +124,7 @@ git push origin main
 
 ```bash
 git status
-git add _posts/2026-03-08-openclaw-practical-6-publish-ops-rollback.md
+git add _posts/2026-03-08-openclaw-practical-5-publish-ops-rollback.md
 git commit -m "Add OpenClaw practical #6 publish ops and rollback guide"
 ```
 
@@ -162,7 +162,7 @@ git push origin main
 
 아래 체크리스트는 실제로 매번 확인하는 용도로 만든 템플릿이다.
 
-- [ ] 시리즈 번호/제목이 맞다 (OpenClaw 실전편 #6)
+- [ ] 시리즈 번호/제목이 맞다 (OpenClaw 실전편 #5)
 - [ ] 본문 1,800자 이상 충족
 - [ ] 상단 대표 이미지 포함: `/assets/img/posts/openclaw-hero.jpg`
 - [ ] 실전 예시/명령어/체크리스트/실패 대응 섹션 포함
