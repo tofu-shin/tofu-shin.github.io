@@ -81,7 +81,12 @@ script_includes:
 
         <div>
           <!-- pageviews -->
-          {% if site.pageviews.provider == 'busuanzi' or (site.pageviews.provider and site.analytics[site.pageviews.provider].id) %}
+          {% if site.pageviews.provider == 'busuanzi' %}
+            <span>
+              <em id="busuanzi_value_page_pv">-</em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
+          {% elsif site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
             <span>
               <em id="pageviews">
                 <i class="fas fa-spinner fa-spin small"></i>
