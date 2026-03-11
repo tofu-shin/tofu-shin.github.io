@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 3월 9일자 글로벌 테크 이슈 3선: PS5 리눅스 포팅, WASM 실전기, AI 코딩 생산성의 역설"
 date: 2026-03-09 02:15:00 +0900
-categories: [technews]
+categories: [Tech News]
 tags: [ps5-linux, webassembly, ai-coding, developer-productivity, opensource]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 3월 7일자 글로벌 테크 이슈 3선: 에이전트 보안 논쟁, Rust 1.94, 그리고 LibreSprite"
 date: 2026-03-07 02:15:00 +0900
-categories: [technews]
+categories: [Tech News]
 tags: [ai-agent, security, rust, opensource, pixelart]
 ---
 

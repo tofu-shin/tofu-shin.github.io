@@ -1,8 +1,9 @@
 ---
 title: "1. OpenClaw란? - 항상 켜져있는 AI 비서"
 date: 2026-02-12 10:05:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, ai, automation, claude, introduction]
+pin: true
 ---
 
 # OpenClaw를 소개합니다

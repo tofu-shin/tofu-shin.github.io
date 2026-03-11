@@ -2,8 +2,9 @@
 layout: post
 title: "7. OpenClaw 실전편 - 주간 백로그 큐로 09:00 발행 끊기지 않게 운영하기"
 date: 2026-03-10 09:00:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, automation, blog, backlog, cron, workflow, checklist]
+pin: true
 ---
 
 # OpenClaw 실전편 #7

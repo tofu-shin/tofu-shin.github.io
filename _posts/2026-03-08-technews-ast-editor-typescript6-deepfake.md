@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 3월 8일자 글로벌 테크 이슈 3선: AST 에디터, TypeScript 6.0 RC, 딥페이크 탐지 오픈소스"
 date: 2026-03-08 02:15:00 +0900
-categories: [technews]
+categories: [Tech News]
 tags: [ast-editor, typescript, deepfake-detection, opensource, developer-trends]
 ---
 

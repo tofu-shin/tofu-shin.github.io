@@ -2,7 +2,7 @@
 layout: post
 title: "5. OpenClaw 실전편 - 발행 실패를 막는 운영 템플릿(검증·커밋·롤백)"
 date: 2026-03-08 09:00:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, automation, blog, jekyll, git, rollback, checklist]
 ---
 

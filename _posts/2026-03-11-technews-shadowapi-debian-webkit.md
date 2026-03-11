@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 3월 11일자 글로벌 테크 이슈 3선: Shadow API 신뢰 붕괴, Debian의 AI 기여 딜레마, WebKit 탈출 러스트 전환"
 date: 2026-03-11 02:15:00 +0900
-categories: [technews]
+categories: [Tech News]
 tags: [llm, shadow-api, debian, webkit, rust]
 ---
 

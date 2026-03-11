@@ -1,7 +1,7 @@
 ---
 title: "2. OpenClaw 설치하기 - 처음부터 끝까지"
 date: 2026-02-12 10:35:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, installation, setup, tutorial]
 ---
 

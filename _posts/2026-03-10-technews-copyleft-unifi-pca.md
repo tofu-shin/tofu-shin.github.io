@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 3월 10일자 글로벌 테크 이슈 3선: AI 재구현과 카피레프트, UniFi 프로토콜 리버스엔지니어링, 대규모 PCA 실전"
 date: 2026-03-10 02:15:00 +0900
-categories: [technews]
+categories: [Tech News]
 tags: [copyleft, reverse-engineering, unifi, machine-learning, developer-trends]
 ---
 

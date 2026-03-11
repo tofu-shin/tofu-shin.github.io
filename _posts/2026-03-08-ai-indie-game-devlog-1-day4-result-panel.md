@@ -1,7 +1,7 @@
 ---
 title: "AI랑 인디게임 만들기 #1 - Claude Code로 Day4(결과 패널·골드 피드백)까지"
 date: 2026-03-08 19:40:00 +0900
-categories: [AI, OpenClaw]
+categories: [Devlog, AI Workflow]
 tags: [ai-game-dev, godot, gdscript, claude-code, indie-game, devlog, maltese-in-dungeon]
 description: "Godot 4.6 기반 모바일 세로 게임 Maltese in Dungeon 개발일지. Claude Code와 함께 Day4 범위(런 결과 패널, 사망 패널티, 골드 팝업 피드백)까지 구현한 내용을 정리합니다."
 ---

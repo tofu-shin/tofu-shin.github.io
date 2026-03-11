@@ -2,8 +2,9 @@
 layout: post
 title: "3. OpenClaw 실전편 - Heartbeat + Cron으로 아침 자동화 루틴 만들기"
 date: 2026-03-05 09:00:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, heartbeat, cron, automation, workflow]
+pin: true
 ---
 
 # OpenClaw 실전편 #3

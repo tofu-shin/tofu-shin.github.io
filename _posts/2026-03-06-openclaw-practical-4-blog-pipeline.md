@@ -2,7 +2,7 @@
 layout: post
 title: "4. OpenClaw 실전편 - 블로그 발행 파이프라인(초안→검수→배포) 실전 템플릿"
 date: 2026-03-06 09:00:00 +0900
-categories: [AI, OpenClaw]
+categories: [OpenClaw, AI Workflow]
 tags: [openclaw, automation, blog, jekyll, cron, workflow]
 ---
 
