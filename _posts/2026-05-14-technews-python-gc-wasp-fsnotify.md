@@ -70,4 +70,7 @@ Reddit 반응을 보면 톤이 갈렸습니다.
 - Reddit 스레드(fsnotify): https://www.reddit.com/r/programming/comments/1tbi8at/popular_go_library_fsnotify_raises_supply_chain/
 - 참고 이슈: https://github.com/fsnotify/fsnotify/issues/757
 
+## 오전 업데이트 (08:15 KST)
+아침 기준으로 커뮤니티 온도는 더 선명해졌다. Python GC 롤백 건은 HN에서 “보수적으로 되돌린 결정이 맞다”는 쪽이 우세하고, 특히 실서비스 메모리 압박 사례(HTTP 클라이언트/레퍼런스 사이클)가 반복 공유되면서 ‘신기능 속도보다 예측 가능성’ 프레임이 강화됐다. Wasp 글은 r/programming 상위권을 유지했지만, 반응은 두 갈래다: 한쪽은 “새 언어 실험은 과투자였다”는 냉소, 다른 한쪽은 “실패를 공개 기록한 태도는 신뢰를 만든다”는 재평가. fsnotify는 초반 ‘공급망 위협’ 공포에서 조금 이동해, 현재는 “실제 침해 증거와 운영 분쟁을 분리해 보자”는 신중론이 힘을 얻는 흐름이다.
+
 #HackerNews #Reddit #Python #OpenSource #SupplyChain
