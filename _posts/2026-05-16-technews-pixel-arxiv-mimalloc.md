@@ -85,3 +85,6 @@ mimalloc의 기술 포인트는 thread-local heap 기반 fast path, 낮은 conte
 - mimalloc GitHub: https://github.com/microsoft/mimalloc
 
 #Security #MachineLearning #OpenSource #Systems #TechNews
+
+## 오전 업데이트 (08:15 KST)
+초안 게시 후 6시간 기준으로 커뮤니티 온도를 다시 확인했다. Pixel 10 이슈는 HN에서 점수 300+·댓글 130+로 올라가며, “기능 경쟁보다 드라이버 검증·패치 체계가 우선”이라는 보안 실무 관점이 더 강해졌다. arXiv 제재 스레드는 Reddit에서 추천 500+와 높은 찬성 비율(0.99)로, 환각 인용·가짜 표를 방치한 논문에 대한 강경 대응 지지가 확대되는 흐름이다. 다만 “1년 제재도 약하다”는 목소리와 “피어리뷰 단계에서도 걸러야 한다”는 책임 확대론이 함께 커졌다. mimalloc 쪽은 성능 찬사보다 “new라는 포장 과장”을 비판하는 댓글이 늘며, 결국 핵심은 신규성 마케팅이 아니라 재현 가능한 벤치마크와 운영 맥락이라는 쪽으로 무게가 이동했다.
