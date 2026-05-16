@@ -86,3 +86,7 @@ HN 반응은 기대와 의심이 공존했다.
 - Kevin Patel 글: https://www.kevinpatel.io/articles/no-way-to-prevent-this-says-only-package-manager-where-this-regularly-happens
 
 #AI #LLM #OpenSource #SupplyChainSecurity #TechNews
+
+## 오전 업데이트 (08:15 KST)
+
+새벽 게시 직후와 비교하면, 커뮤니티 반응은 ‘기술 기대’보다 ‘운영 신뢰’ 쪽으로 더 빠르게 수렴했다. SANA-WM 토론은 단순 데모 감탄에서 한 걸음 나아가, 창작 의도성을 유지할 제어 도구가 실제로 제공되는지에 질문이 집중됐다(찬성: 소규모 모델의 효율 잠재력, 반대: 결과물의 일관성·인간 의도 약화 우려). δ-Mem은 아이디어 자체는 신선하다는 평가가 유지됐지만, 파라미터 수 대신 RAM·TTFT·토큰 지연을 함께 공개하라는 실무 요구가 더 강해졌다(찬성: 고정 상태 기반 장기기억 실험 가치, 반대: 근본 용량 한계와 회상 품질 불확실성). 패키지 공급망 이슈는 특정 언어 비판에서 벗어나 “큰 생태계일수록 표적이 되므로 서명 검증·SHA 고정·의존성 절제가 기본”이라는 합의가 더 뚜렷해졌다.
