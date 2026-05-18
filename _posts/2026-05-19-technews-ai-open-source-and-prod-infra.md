@@ -102,3 +102,6 @@ r/programming에서 올라온 유럽권 Google Docs 대안 서비스 운영기 �
 - 원문(K8s 운영기): [From Kubernetes Dev Setup to Production](https://georg-schwarz.com/blog/from-kubernetes-demo-to-production-platform/)
 
 #AI #OpenSource #MLOps #Kubernetes #DevOps
+
+## 오전 업데이트 (08:15 KST)
+초기 게시 이후 커뮤니티 반응은 ‘방향성 동의’에서 ‘운영 디테일 검증’으로 빠르게 이동했다. AI 기여 스팸 이슈는 찬성 의견이 여전히 우세하지만, 단순 차단보다 **신뢰 점수·기여 이력 기반의 단계적 권한 부여**가 필요하다는 실무형 제안이 늘었다. Papers with Code 복원 논의는 환영 분위기가 유지되는 가운데, “누가 메타데이터 품질을 유지할 것인가” 같은 유지보수 거버넌스 질문이 추가로 부상했다. K8s 운영 전환 주제는 공감 반응이 강했고, 특히 백업 ‘보유’보다 **복구 리허설 자동화**를 KPI로 잡아야 한다는 의견이 반복됐다. 요약하면 오늘 토론의 핵심은 새 기술 자체보다, 신뢰와 운영 책임을 어떻게 제도화할지에 모이고 있다.
