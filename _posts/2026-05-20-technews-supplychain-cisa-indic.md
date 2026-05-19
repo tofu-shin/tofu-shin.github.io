@@ -99,3 +99,6 @@ Reddit 반응은 대체로 긍정적이었다.
 - 데이터셋: [Hugging Face - indic-hplt-v1](https://huggingface.co/datasets/AM0908/indic-hplt-v1)
 
 #Security #NPM #SupplyChain #MachineLearning #OpenData
+
+## 오전 업데이트 (08:15 KST)
+밤사이 커뮤니티 온도는 더 선명해졌다. npm 공급망 이슈는 r/programming 기준 619점·153댓글까지 커지며, 단순 분노보다 **"minimum release age 기본 적용"**, **preinstall 차단**, **의존성 축소** 같은 실행론이 중심으로 이동했다. CISA 건은 HN 366점·150댓글로 확산되며 “예산/조직 축소 변수는 있어도 평문 비밀번호·장기 키 관행은 방어 불가”라는 비판이 우세했다. 반면 Indic 코퍼스는 r/ML 24점·7댓글 규모지만, 저자원 언어 실험에 바로 쓸 수 있는 CC0 데이터라는 점에서 실무 호감이 유지되는 흐름이다.
